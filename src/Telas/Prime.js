@@ -17,9 +17,7 @@ export default function Prime() {
           industry. Lorem Ipsum has been the industry's standard dummy text ever
           since the 1500s
         </Text>
-        <Text style={estilos.preco}>
-            R$ 40,00
-        </Text>
+        <Text style={estilos.preco}>R$ 40,00</Text>
       </View>
 
       <View style={estilos.card}>
@@ -57,28 +55,27 @@ const estilos = StyleSheet.create({
     paddingTop: 20,
     marginLeft: 20,
     fontSize: 16,
-    lineHeight: 26
+    lineHeight: 26,
   },
   preco: {
-    color:  "red",
+    color: "red",
     fontWeight: "bold",
     fontSize: 26,
     marginTop: 8,
-    marginLeft: 22
+    marginLeft: 22,
   },
   card: {
     backgroundColor: "grey",
     width: 200,
-    height:300,
+    height: 300,
     padding: 20,
     margin: 30,
     borderRadius: 18,
-    
   },
   cardTitle: {
     color: "white",
     fontSize: 16,
-    fontWeight:"bold"
+    fontWeight: "bold",
   },
   cardDesc: {
     color: "red",
