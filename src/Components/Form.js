@@ -11,10 +11,10 @@ const LoginForm = () => {
     // Verifica se os campos estão preenchidos
     if (username === "" || password === "") {
       // se escutar erro emite um alerta
-      Alert.alert("Erro", "Por favor, preencha todos os campos.");
+      Alert.alert("Erro, Por favor, preencha todos os campos.");
     } else {
       // caso esteja presciso ele alerta com bem vindo
-      Alert.alert("Sucesso", `Bem-vindo, ${username}!`);
+      Alert.alert(`Sucesso, Bem-vindo, ${username}!`);
     }
   };
 

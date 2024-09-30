@@ -10,7 +10,7 @@ export default function Contador() {
   }, [count]);
   return (
     <>
-      <Text style={estilos.texto}>Voce clicou aqui {count}</Text>
+      <Text style={estilos.texto}>Voce clicou aqui {count} </Text>
       <Text>{msg}</Text>
       <View style={estilos.ButtonList}>
         <Button
